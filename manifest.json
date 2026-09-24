@@ -1,20 +1,27 @@
 {
   "name": "Gmail",
   "short_name": "Gmail",
+  "id": "/",
+  "description": "Fast, secure client-side Gmail web client and email simulator.",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#ffffff",
   "theme_color": "#f6f8fc",
+  "categories": ["productivity", "utilities"],
   "icons": [
     {
       "src": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x_r5.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
